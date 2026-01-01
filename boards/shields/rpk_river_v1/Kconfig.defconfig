@@ -1,0 +1,6 @@
+if SHIELD_RPK_RIVER_V1
+
+config ZMK_KEYBOARD_NAME
+    default "RPK River"
+
+endif # SHIELD_RPK_RIVER_V1

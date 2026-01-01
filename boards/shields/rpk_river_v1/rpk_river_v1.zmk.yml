@@ -1,0 +1,20 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
+file_format: "1"
+id: rpk_river_v1
+name: River
+type: shield
+url: https://github.com/rpkeeb/zmk-config-rpk_river_v1.git
+
+# Add any features your keyboard supports here.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+features:
+  - keys
+  - display
+  - studio 
+  - pointer
+requires:
+  - SuperMini nRF52840
+  - Nice!View 128x32 OLED, 3 wire SPI, GND, +3V3
