@@ -27,10 +27,11 @@
         //│         │         │         │         │         │         │         │         │         │         │
         //├─────────┼─────────┼─────────┼─────────┼─────────┴─────────┴─────────┼─────────┼─────────┼─────────┤      ┌─────────┬─────────┐
         //│         │         │         │         │                             │         │         │         │      │         │         │ 
-           &mkp MB1  &kp LCTRL &kp LWIN  &kp DOT             &kp SPACE           &kp LEFT  &kp DOWN  &kp RIGHT         &to 1     &mkp MB2
+           &mkp MB1  &kp LCTRL &kp LALT  &kp DOT             &kp SPACE           &kp LEFT  &kp DOWN  &kp RIGHT         &to 1     &mkp MB2
         //│         │         │         │         │                             │         │         │         │      │         │         │
         //└─────────┴─────────┴─────────┴─────────┴─────────────────────────────┴─────────┴─────────┴─────────┘      └─────────┴─────────┘
             >;
+        };
 
         layer 1 { 
             display-name = "Numbers Yo";
@@ -49,10 +50,11 @@
         //│         │         │         │         │         │         │         │         │         │         │
         //├─────────┼─────────┼─────────┼─────────┼─────────┴─────────┴─────────┼─────────┼─────────┼─────────┤      ┌─────────┬─────────┐
         //│         │         │         │         │                             │         │         │         │      │         │         │ 
-           &mkp MB1  &kp LCTRL &kp LWIN  &kp DOT             &kp SPACE           &kp LEFT  &kp DOWN  &kp RIGHT         &to 2     &mkp MB2
+           &mkp MB1  &kp LCTRL &kp LALT  &kp DOT             &kp SPACE           &kp LEFT  &kp DOWN  &kp RIGHT         &to 2     &mkp MB2
         //│         │         │         │         │                             │         │         │         │      │         │         │
         //└─────────┴─────────┴─────────┴─────────┴─────────────────────────────┴─────────┴─────────┴─────────┘      └─────────┴─────────┘
             >;
+        };
 
         layer 2 { 
             display-name = "Barely Functioning";
@@ -75,6 +77,34 @@
         //│         │         │         │         │                             │         │         │         │      │         │         │
         //└─────────┴─────────┴─────────┴─────────┴─────────────────────────────┴─────────┴─────────┴─────────┘      └─────────┴─────────┘
             >;
+        };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+
+        extra4 {
+            status = "reserved";
+        };
+
+        extra5 {
+            status = "reserved";
+        };
+
+        extra6 {
+            status = "reserved";
+        };
+
+        extra7 {
+            status = "reserved";
         };
     };
 };
