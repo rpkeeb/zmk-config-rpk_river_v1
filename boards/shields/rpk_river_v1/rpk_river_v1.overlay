@@ -1,10 +1,14 @@
 // https://zmk.dev/docs/development/hardware-integration/new-shield for help
 
 #include <dt-bindings/zmk/matrix_transform.h>
-
 #include "rpk_river_v1-layouts.dtsi"
 
 / {
+    &physical_layout0 {
+        kscan = <&default_kscan>;
+        transform = <&default_transform>;
+    };
+
     chosen {
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
