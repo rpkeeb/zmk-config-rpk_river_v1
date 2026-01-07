@@ -4,7 +4,7 @@
 
 file_format: "1"
 id: rpk_river_v1
-name: River
+name: RPK_River
 type: shield
 url: https://github.com/rpkeeb/zmk-config-rpk_river_v1.git
 
@@ -17,4 +17,3 @@ features:
   - pointer
 requires:
   - SuperMini nRF52840
-  - Nice!View 128x32 OLED, 3 wire SPI, GND, +3V3
