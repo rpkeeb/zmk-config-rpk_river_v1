@@ -9,7 +9,7 @@
     // Define a default keymap here. Also add this to one of the layers &studio_unlock
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
     keymap {
-        compatible = "zmk,keymap";
+        compatible = zmk,keymap;
 
         default_layer {
             display-name = "QWERTY";
