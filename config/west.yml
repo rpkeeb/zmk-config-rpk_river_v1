@@ -14,6 +14,5 @@ manifest:
       import: app/west.yml
     - name: zmk-config-rpk_river_v1
       remote: rpk
-      revision: main
   self:
     path: config
