@@ -15,5 +15,4 @@ features:
   - display
   - studio 
   - pointer
-requires:
-  - SuperMini nRF52840
+requires: [SuperMini nRF52840]
