@@ -4,7 +4,8 @@
 #include "rpk_river_v1-layouts.dtsi"
 
 / {
-    &physical_layout0 {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
         kscan = <&default_kscan>;
         transform = <&default_transform>;
     };
