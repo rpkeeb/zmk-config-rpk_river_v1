@@ -34,7 +34,7 @@
             >;
         };
 
-        layer 1 { 
+        layer_1 { 
             display-name = "Numbers Yo";
             bindings = <
         //┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
@@ -57,7 +57,7 @@
             >;
         };
 
-        layer 2 { 
+        layer_2 { 
             display-name = "Barely Functioning";
             bindings = <
         //┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
@@ -80,7 +80,7 @@
             >;
         };
 
-        layer 3 { 
+        layer_3 { 
             display-name = "Extras for Experts";
             bindings = <
         //┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
@@ -103,27 +103,27 @@
             >;
         };
 
-        extra1 {
+        extra_1 {
             status = "reserved";
         };
 
-        extra2 {
+        extra_2 {
             status = "reserved";
         };
 
-        extra3 {
+        extra_3 {
             status = "reserved";
         };
 
-        extra4 {
+        extra_4 {
             status = "reserved";
         };
 
-        extra5 {
+        extra_5 {
             status = "reserved";
         };
 
-        extra6 {
+        extra_6 {
             status = "reserved";
         };
     };
