@@ -4,8 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    // Define a default keymap here. Also add this to one of the layers &studio_unlock
-    // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
+    // To access ZMK Studio ensure "&studio_unlock" is bound to a key
     keymap {
         compatible = "zmk,keymap";
 

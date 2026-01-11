@@ -7,7 +7,7 @@ type: shield
 url: https://github.com/rpkeeb/zmk-config-rpk_river_v1.git
 features:
   - keys
-  # display,wip
-  # studio,wip
-  # pointer,wip
+  # display, not configured
+  - studio # not tested
+  - pointer # not tested
 requires: [SuperMini nRF52840]
