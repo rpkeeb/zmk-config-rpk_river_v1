@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: rpk
       url-base: https://github.com/rpkeeb
-    - name: rpk
+    - name: jimmy
       url-base: https://github.com/rpkeeb
     - name: badjeff
       url-base: https://github.com/badjeff
@@ -20,7 +20,7 @@ manifest:
       remote: rpk
       revision: main
     - name: nicehatjimmy
-      remote: rpk
+      remote: jimmy
       revision: main
     - name: zmk-pmw3610-driver
       remote: badjeff
