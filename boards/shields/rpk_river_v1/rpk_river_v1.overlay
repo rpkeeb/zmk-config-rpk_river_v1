@@ -56,6 +56,17 @@
     };
 };
 
+&nice_view_spi {
+    status = "okay";
+    nice_view: ls0xx@0 {
+        compatible = "sharp,ls0xx";
+        spi-max-frequency = <1000000>;
+        reg = <0>;
+        width = <160>;
+        height = <68>;
+    };
+};
+
 &pinctrl {
     spi1_default: spi1_default {
         group1 {
@@ -96,6 +107,7 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout_0;
+        zephyr,display = &nice_view;
     };
 
     physical_layout_0: physical_layout_0 {
