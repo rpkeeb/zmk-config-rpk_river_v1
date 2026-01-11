@@ -20,4 +20,4 @@
 ---
 include:
   - board: nice_nano
-    shield: rpk_river_v1
+    shield: rpk_river_v1 nice_view
