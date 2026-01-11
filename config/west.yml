@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: rpk
       url-base: https://github.com/rpkeeb
+    - name: rpk
+      url-base: https://github.com/rpkeeb
     - name: badjeff
       url-base: https://github.com/badjeff
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -15,6 +17,9 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-config-rpk_river_v1
+      remote: rpk
+      revision: main
+    - name: nicehatjimmy
       remote: rpk
       revision: main
     - name: zmk-pmw3610-driver
