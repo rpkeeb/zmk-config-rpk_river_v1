@@ -1,2 +1,3 @@
+#No whitespace after the comma or in your keyboard name!
 config SHIELD_RPK_RIVER_V1
     def_bool $(shields_list_contains,rpk_river_v1)

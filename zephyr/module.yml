@@ -1,3 +1,5 @@
+name: zmk-keyboard-rpk_river_v1
+
 build:
   settings:
     board_root: .

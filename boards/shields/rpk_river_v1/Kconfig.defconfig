@@ -1,6 +1,7 @@
 if SHIELD_RPK_RIVER_V1
 
+#Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "rpk_river_v1"
+    default "RPK River"
 
-endif # SHIELD_RPK_RIVER_V1
+endif

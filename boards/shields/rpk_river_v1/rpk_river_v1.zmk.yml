@@ -1,19 +1,13 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
-# for instructions.
+#https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
 
 file_format: "1"
 id: rpk_river_v1
-name: rpk_river_v1
+name: RPK_River
 type: shield
-
-# Set this to a URL that documents the keyboard.
-url: https://example.com
-
-# Add any features your keyboard supports here.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+url: https://github.com/rpkeeb/zmk-config-rpk_river_v1.git
 features:
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
-requires:
-  - pro_micro
+  # display,wip
+  # studio,wip
+  # pointer,wip
+requires: [SuperMini nRF52840]
