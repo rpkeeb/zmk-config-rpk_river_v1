@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "rpk_river_v1-layouts.dtsi"
+#include <input/processors.dtsi>
 
 &pinctrl {
     spi0_default: spi0_default {
