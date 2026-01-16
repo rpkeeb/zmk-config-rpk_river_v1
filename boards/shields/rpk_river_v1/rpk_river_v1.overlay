@@ -65,6 +65,7 @@
         scroller {
         layers = <4>;
         input-processors = <&zip_scroll_transform>;
+        process-next = n
         };
 
     };
