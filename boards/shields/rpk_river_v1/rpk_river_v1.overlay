@@ -125,22 +125,22 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&pro_micro 9 GPIO_ACTIVE_HIGH>, //0
-              <&pro_micro 8 GPIO_ACTIVE_HIGH>, //1
-              <&pro_micro 7 GPIO_ACTIVE_HIGH>, //2
-              <&gpio1 1 GPIO_ACTIVE_HIGH>, //3
-              <&gpio1 2 GPIO_ACTIVE_HIGH>, //4
-              <&gpio1 7 GPIO_ACTIVE_HIGH>, //5
+            = <&pro_micro 9 GPIO_ACTIVE_HIGH>,  //0
+              <&pro_micro 8 GPIO_ACTIVE_HIGH>,  //1
+              <&pro_micro 7 GPIO_ACTIVE_HIGH>,  //2
+              <&gpio1 1 GPIO_ACTIVE_HIGH>,      //3
+              <&gpio1 2 GPIO_ACTIVE_HIGH>,      //4
+              <&gpio1 7 GPIO_ACTIVE_HIGH>,      //5
               <&pro_micro 10 GPIO_ACTIVE_HIGH>, //6
               <&pro_micro 16 GPIO_ACTIVE_HIGH>, //7
-              <&pro_micro 14 GPIO_ACTIVE_HIGH>, //8
+              <&pro_micro 14 GPIO_ACTIVE_HIGH>; //8
 
         row-gpios
-            = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-              <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-              <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-              <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-              <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+            = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, //0
+              <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, //1
+              <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, //2
+              <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, //3
+              <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; //4
     };
 
     transform: matrix_transform {
