@@ -57,17 +57,18 @@
     };
 };
 
+&trackball_listener {
+
+    scroller {
+        layers = <4>;
+        input-processors = <&zip_scroll_transform>;
+        };
+};
+
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        
-        scroller {
-        layers = <4>;
-        input-processors = <&zip_scroll_transform>;
-        process-next= <n>;
-        };
-
     };
 
     chosen {
