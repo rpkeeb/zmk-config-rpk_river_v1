@@ -69,6 +69,12 @@
         };
     };
 
+    vcc_pwr {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+        init-delay-ms = <500>;
+    };
+
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout_0;
