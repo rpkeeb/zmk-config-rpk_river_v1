@@ -34,10 +34,10 @@
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610-alt";
-        reg = <1>; // refers to the first SPI slave device
+        reg = <0>; // refers to the first SPI slave device
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // MOT P0.17
-        cpi = <800>;
+        cpi = <600>;
         swap-xy; /* optional */
         invert-x; /* optional */
         invert-y; /* optional */
@@ -45,7 +45,7 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
 
-        force-awake;
+        //force-awake;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
            fallback to normal downshift mode after ZMK goes into IDLE / SLEEP mode.
            thus, the sensor would be a `wakeup-source` */
