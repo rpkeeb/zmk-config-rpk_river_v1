@@ -72,7 +72,7 @@
     vcc_pwr {
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
-        init-delay-ms = <500>;
+        //init-delay-ms = <500>;
     };
 
     chosen {
