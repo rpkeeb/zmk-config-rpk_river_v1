@@ -8,12 +8,8 @@ manifest:
       url-base: https://github.com/rpkeeb
     - name: jimmy
       url-base: https://github.com/rpkeeb
-    - name: zmkfirmware
-      url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
-    #- name: badjeff
-    #  url-base: https://github.com/badjeff
+    - name: badjeff
+      url-base: https://github.com/badjeff
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -26,16 +22,9 @@ manifest:
     - name: nicehatjimmy
       remote: jimmy
       revision: main
-    - name: zmk
-      remote: zmkfirmware
-      revision: feat/pointers-move-scroll
-      import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: inorichi
+      remote: badjeff
       revision: main
-    #- name: zmk-pmw3610-driver
-    #  remote: badjeff
-    #  revision: main
   self:
     path: config
     
